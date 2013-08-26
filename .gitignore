@@ -1,0 +1,5 @@
+.dj
+.git
+*.pyc
+__pycache__
+migrations/
