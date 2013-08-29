@@ -2,4 +2,4 @@
 .git
 *.pyc
 __pycache__
-migrations/
+migrations
