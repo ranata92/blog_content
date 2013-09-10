@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Page {{ service.title }} by {{ service.author }}</title>
+    </head>
+    <body>
+        <h3>{{ service['author'] }}</h3>
+        <h4>{{ service['date'] }}</h4>
+        <ul>
+        {% if service %}
+            {% for key in parsed_data['data'] %}
+                <li>Id: {{ key.id }} with value: {{ key.value }} and risk {{ key.risk }}%</li>
+            {% endfor %}
+        {% endif %}
+                    </ul>
+    </body>
+</html>

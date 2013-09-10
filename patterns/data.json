@@ -1,0 +1,10 @@
+{
+  "service": { "title": "Simple json stat.",
+                "date": "2012.05.11",
+                "author": "facebook"},
+  "data": [{ "id": "0", "value": "10", "risk": "0.1"},
+           { "id": "1", "value": "11", "risk": "0.11"},
+           { "id": "2", "value": "21", "risk": "0.2"},
+           { "id": "3", "value": "8", "risk": "0.02"},
+           { "id": "4", "value": "15", "risk": "0.12"}]
+}
