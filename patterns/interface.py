@@ -1,4 +1,7 @@
 class IBase(object):
+    '''Base class for any parser.
+       Implements virtual parse_file method
+       to be overriden in ancestors.'''
     
     def __init__(self, file):
         self._file = file
@@ -8,6 +11,8 @@ class IBase(object):
 
 
 class RenderMixin(object):
+    '''Mixin class for any parser 
+       to render parsed data into html page.'''
 
     def _build_context(self, kwargs):
         from datetime import date

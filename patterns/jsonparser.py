@@ -2,6 +2,10 @@ from interface import IBase, RenderMixin
 
 
 class JSONParser(IBase, RenderMixin):
+    '''JSON Parser. Overrides parse_file from IBase
+       and renders parsed data with Mixin's render page
+       method'''
+
     def __init__(self, file):
         super(JSONParser, self).__init__(file)
 

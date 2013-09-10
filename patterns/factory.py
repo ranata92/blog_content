@@ -1,6 +1,6 @@
 def parser_factory(data=None):
-#    if not data:
-#        raise Exception("No data to operate!")  ##requres file to operate
+    '''Simple factory to construct Parser Adapter
+       depending on file extension. '''
 
     import re
     from interface import IBase
@@ -21,9 +21,4 @@ def parser_factory(data=None):
 
 
 parser = parser_factory('data.json').parse()
-
-#try:
-#    _parser = parser_factory().parse()   ##if no file is given
-#except Exception as e:
-#    print e
 
