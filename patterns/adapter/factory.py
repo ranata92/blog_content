@@ -13,12 +13,12 @@ def parser_factory(data=None):
     if ext in ['js', 'jsn', 'json']:
         from jsonparser import JSONParser
         Base = JSONParser(data)
-    if ext in ['xml', 'rxml']:
+    if ext in ['xml', 'rxml', 'xl']:
         from xmlparser import XMLParser
         Base = XMLParser(data)
 
     return Parser(Base)
 
 
-parser = parser_factory('data.json').parse()
+parser = parser_factory('data.xml').parse()
 

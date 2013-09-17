@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<stats>
+    <service>
+
+        <title>Simple XML Stat</title>
+        <date>2011.06.13</date>
+        <author>Google inc.</author>
+
+    </service>
+
+
+    <data>
+
+        <detail>
+            <id>0</id>
+            <value>10</value>
+            <risk>0.1</risk>
+        </detail>
+
+        <detail>
+            <id>1</id>
+            <value>11</value>
+            <risk>0.11</risk>
+        </detail>
+
+        <detail>
+            <id>2</id>
+            <value>21</value>
+            <risk>0.2</risk>
+        </detail>
+
+        <detail>
+            <id>3</id>
+            <value>8</value>
+            <risk>0.02</risk>
+        </detail>
+
+        <detail>
+            <id>4</id>
+            <value>15</value>
+            <risk>0.12</risk>
+        </detail>
+
+    </data>
+</stats>
