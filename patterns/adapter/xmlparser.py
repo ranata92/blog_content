@@ -26,7 +26,7 @@ class XMLParser(IBase, RenderMixin):
             print title, '=>', date, '=>', author
 
             for el in root.data.iterchildren():
-                for _ch in el.iterchildren():
+                for _ch in el.iterchildren():#?????????????????????????????????
                     print _ch.tag, '--->', _ch.text
 
 
